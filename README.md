@@ -137,7 +137,7 @@ Employee profile records linked to the user account.
 | `employee_id`| string     | Unique generated ID (e.g. `HR-0001`) |
 | `name`       | string     | Employee full name |
 | `department` | string     | Department name |
-| `gender`     | enum       | `Male`, `Female`, `Other` |
+| `gender`     | enum       | `Male`, `Female`|
 | `created_at` | timestamp  | Laravel timestamps |
 | `updated_at` | timestamp  | Laravel timestamps |
 
