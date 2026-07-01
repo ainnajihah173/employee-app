@@ -1,4 +1,4 @@
-﻿# Employee App
+﻿# Employee Web Based System
 
 A Laravel-based employee management application for tracking employee profiles, departments, roles, and status with role-protected HR administration.
 
