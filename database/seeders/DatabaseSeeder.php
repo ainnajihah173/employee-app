@@ -15,11 +15,11 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $employees = [
-            // HR Admins (can add/edit/delete) - Mix of Nationalities
+            // HR Admins (can add/edit/delete) 
             ['name' => 'Siti Nurul Rahman', 'email' => 'siti.nurul@company.com', 'role' => 'hr_admin', 'department' => 'Human Resource', 'gender' => 'Female', 'nationality' => 'Malaysian'],
             ['name' => 'Rajesh Kumar', 'email' => 'rajesh.kumar@company.com', 'role' => 'hr_admin', 'department' => 'Human Resource', 'gender' => 'Male', 'nationality' => 'Indian'],
 
-            // Regular Employees (view only) - Mix of Malaysian, Chinese & Indian
+            // Regular Employees (view only) 
             ['name' => 'Ahmad Bin Hassan', 'email' => 'ahmad.hassan@company.com', 'role' => 'employee', 'department' => 'Information Technology', 'gender' => 'Male', 'nationality' => 'Malaysian'],
             ['name' => 'Wei Chen', 'email' => 'wei.chen@company.com', 'role' => 'employee', 'department' => 'Marketing', 'gender' => 'Male', 'nationality' => 'Chinese'],
             ['name' => 'Priya Sharma', 'email' => 'priya.sharma@company.com', 'role' => 'employee', 'department' => 'Finance', 'gender' => 'Female', 'nationality' => 'Indian'],
@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
             ['name' => 'Arjun Patel', 'email' => 'arjun.patel@company.com', 'role' => 'employee', 'department' => 'Sales', 'gender' => 'Male', 'nationality' => 'Indian'],
             ['name' => 'Nurliza Binti Zain', 'email' => 'nurliza.zain@company.com', 'role' => 'employee', 'department' => 'Operations', 'gender' => 'Female', 'nationality' => 'Malaysian'],
             ['name' => 'Zhang Wei', 'email' => 'zhang.wei@company.com', 'role' => 'employee', 'department' => 'Information Technology', 'gender' => 'Male', 'nationality' => 'Chinese'],
-            ['name' => 'Divya Nair', 'email' => 'divya.nair@company.com', 'role' => 'employee', 'department' => 'Marketing', 'gender' => 'Female', 'nationality' => 'Indian'],
+            ['name' => 'Divya Nair', 'email' => 'divya.nair@company.com', 'role' => 'employee', 'department' => 'Human Resource', 'gender' => 'Female', 'nationality' => 'Indian'],
         ];
 
         foreach ($employees as $data) {

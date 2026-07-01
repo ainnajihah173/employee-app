@@ -12,7 +12,7 @@ class DashboardController extends Controller
         $totalEmployees = Employee::count();
         $departmentStats = Employee::select('department', \Illuminate\Support\Facades\DB::raw('count(*) as total'))
             ->groupBy('department')
-            ->orderBy('total', 'asc')
+            ->orderBy('total', 'desc')
             ->get();
 
         $recentHires = Employee::latest()->take(5)->get();
